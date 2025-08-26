@@ -1,0 +1,9 @@
+
+requests
+urllib3
+beautifulsoup4
+colorama
+tqdm
+playwright
+feedparser
+googlesearch-python
