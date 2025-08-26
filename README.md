@@ -20,13 +20,46 @@
 
 ## 📦 Requirements
 
-- Python 3.8+
-- Dependencies:
-  - requests, beautifulsoup4, urllib3, colorama, tqdm
+- Python 3.8+ and pip
+- Git (recommended)
 
-Install with:
+## 🛠️ Installation
+
+- Quick setup:
 ```bash
 pip install -r requirements.txt
+# Optional (for JS crawling)
+playwright install
+```
+
+- From scratch:
+
+1) Clone the repository
+```bash
+git clone https://github.com/sudo0x57/sqlhunter
+cd sqlhunter
+```
+
+2) Create a virtual environment
+- Windows (PowerShell):
+```powershell
+python -m venv venv
+venv\Scripts\Activate.ps1
+```
+- Linux/macOS:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3) Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+4) Install Playwright browsers (optional, for JavaScript-heavy crawling)
+```bash
+playwright install
 ```
 
 ## 🚀 Quick Start
@@ -129,3 +162,9 @@ Issues and PRs are welcome. Please describe changes clearly and include reproduc
 ## 📄 License
 
 Specify your license (e.g., MIT). If a `LICENSE` file is added, reference it here.
+
+
+
+
+
+
