@@ -18,6 +18,11 @@
 - **Reporting**: HTML, JSON, CSV
 - **Config persistence** in `~/.config/sqlhunter/`
 
+- <p align="center">
+ <img src="Sc.png" alt="Demo">
+</p>
+
+
 ## 📦 Requirements
 
 - Python 3.8+ and pip
